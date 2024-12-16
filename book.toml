@@ -1,0 +1,6 @@
+[book]
+description = "2024 年秋季学期软件工程"
+language = "zh-CN"
+multilingual = false
+src = "src"
+title = "Veloquent即时通讯系统文档"
