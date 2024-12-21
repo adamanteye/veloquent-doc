@@ -4,6 +4,80 @@
 
 ## 前端
 
+前端的业务代码主要在 `src` 中。
+
+前端将各个模块划分为components，便于开发维护，以及模块复用。主要划分出了若干好友管理相关的组件（如Contact.tsx、ContactFind.tsx等），若干群聊管理相关的组件（如GroupAdminPanel.tsx，GroupNotice.tsx等），若干聊天相关的组件（如ChatWindow.tsx，MessageInput.tsx等）
+
+```txt
+.
+├── public
+│   ├── favicon.svg
+│   └── protos
+│       ├── public_protos_resource.proto
+│       ├── resource.proto
+│       ├── resource_request.proto
+│       └── response.proto
+└── src
+    ├── components
+    │   ├── AudioPlayer.tsx
+    │   ├── AudioRecord.tsx
+    │   ├── ChatWindow.tsx
+    │   ├── Contact.tsx
+    │   ├── ContactFind.tsx
+    │   ├── ContactList.tsx
+    │   ├── ContactListRaw.tsx
+    │   ├── ContactPending.tsx
+    │   ├── FriendCategory.tsx
+    │   ├── GroupAdd.tsx
+    │   ├── GroupAdminPanel.tsx
+    │   ├── GroupChat.tsx
+    │   ├── GroupInvite.tsx
+    │   ├── GroupList.tsx
+    │   ├── GroupListBar.tsx
+    │   ├── GroupNotice.tsx
+    │   ├── GroupPendingInvitation.tsx
+    │   ├── GroupPendingInvitationList.tsx
+    │   ├── MessageInput.tsx
+    │   ├── MessageSearch.tsx
+    │   ├── Sidebar.tsx
+    │   └── VideoPreview.tsx
+    ├── constants
+    │   └── string.ts
+    ├── pages
+    │   ├── _app.tsx
+    │   ├── contact.tsx
+    │   ├── contactaccept.tsx
+    │   ├── friendcategory.tsx
+    │   ├── groupchat.tsx
+    │   ├── index.tsx
+    │   ├── login.tsx
+    │   ├── main.tsx
+    │   ├── messagesearch.tsx
+    │   ├── newgroup.tsx
+    │   ├── profile
+    │   │   ├── [id].tsx
+    │   │   ├── index.tsx
+    │   │   └── password.tsx
+    │   ├── register.tsx
+    │   ├── test.tsx
+    │   └── userfindscreen.tsx
+    ├── redux
+    │   ├── auth.ts
+    │   └── store.ts
+    ├── styles
+    │   └── globals.css
+    └── utils
+        ├── error_router.ts
+        ├── fetchFriendProfile.ts
+        ├── getmsg.ts
+        ├── my_id.ts
+        ├── network.ts
+        ├── protobufTypes.ts
+        ├── types.ts
+        ├── userfind.tsx
+        └── websocket.tsx
+```
+
 ## 后端
 
 后端的业务代码主要在 `view` 模块中, 此外这里也列出了 `config` 等其他模块:
