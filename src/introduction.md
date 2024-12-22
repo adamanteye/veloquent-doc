@@ -42,13 +42,13 @@
 ## 关键流程
 
 ### 会话管理
-![session](img\session_management.png)
+![session](img/session_management.png)
 
 ### 群聊管理
-![group](img\group_management.png)
+![group](img/group_management.png)
 
 ###  好友请求
-![friends](img\friend.png)
+![friends](img/friend.png)
 
 
 
