@@ -97,4 +97,4 @@
 └── utility.rs       # 正则表达式以及其他工具函数
 ```
 
-上表没有列出 `migration` crate 以及 `entity` 模块, 原因为 `migration` 将在[数据库设计](../database.md)中详细介绍, 而 `entity` 模块从 [`sea-orm`](https://www.sea-ql.org/SeaORM/) CLI 工具生成.
+上表没有列出 `migration` crate 以及 `entity` 模块, 原因为 `migration` 将在[数据库设计](../database.html)中详细介绍, 而 `entity` 模块从 [`sea-orm`](https://www.sea-ql.org/SeaORM/) CLI 工具生成.
