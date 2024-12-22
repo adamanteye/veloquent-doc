@@ -4,4 +4,4 @@
 
 后端服务运行时生成并挂载了 [API 文档](https://veloquent-core-veloquent.app.secoder.net/doc/).
 
-这里也附上一份打印为pdf的文档，见后文。
+这里也附上一份打印为 PDF 的文档, 见后文.

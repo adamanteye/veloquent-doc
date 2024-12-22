@@ -4,9 +4,9 @@
 
 ## 前端
 
-前端的业务代码主要在 `src` 中。
+前端的业务代码主要在 `src` 中.
 
-前端将各个模块划分为components，便于开发维护，以及模块复用。主要划分出了若干好友管理相关的组件（如Contact.tsx、ContactFind.tsx等），若干群聊管理相关的组件（如GroupAdminPanel.tsx，GroupNotice.tsx等），若干聊天相关的组件（如ChatWindow.tsx，MessageInput.tsx等）
+前端将各个模块划分为components, 便于开发维护, 以及模块复用。主要划分出了若干好友管理相关的组件 (如 `Contact.tsx`, `ContactFind.tsx` 等), 若干群聊管理相关的组件 (如 `GroupAdminPanel.tsx`, `GroupNotice.tsx` 等), 若干聊天相关的组件 (如 `ChatWindow.tsx`, `MessageInput.tsx` 等).
 
 ```txt
 .
@@ -89,18 +89,18 @@
 ├── jwt.rs           # JWT 创建, 提取和验证
 ├── view.rs          # 路由注册和集成测试
 ├── view
-│   ├── avatar.rs    # 文件上传和用户头像上传
-│   ├── contact.rs   # 联系人管理
-│   ├── download.rs  # 文件下载
-│   ├── feed.rs      # 消息通知
-│   ├── group.rs     # 群聊管理
-│   ├── history.rs   # 消息获取
-│   ├── login.rs     # 用户登录和 websocket 注销
-│   ├── message.rs   # 消息新建和存储
-│   ├── openapi.rs   # OpenAPI 文档生成
-│   ├── user.rs      # 用户管理和用户注册
-│   └── ws.rs        # websocket 连接池管理
-└── utility.rs        # 正则表达式以及其他工具函数
+│   ├── avatar.rs    # 文件上传和用户头像上传
+│   ├── contact.rs   # 联系人管理
+│   ├── download.rs  # 文件下载
+│   ├── feed.rs      # 消息通知
+│   ├── group.rs     # 群聊管理
+│   ├── history.rs   # 消息获取
+│   ├── login.rs     # 用户登录和 websocket 注销
+│   ├── message.rs   # 消息新建和存储
+│   ├── openapi.rs   # OpenAPI 文档生成
+│   ├── user.rs      # 用户管理和用户注册
+│   └── ws.rs        # websocket 连接池管理
+└── utility.rs       # 正则表达式以及其他工具函数
 ```
 
 上表没有列出 `migration` crate 以及 `entity` 模块, 原因为 `migration` 将在[数据库设计](../database.html)中详细介绍, 而 `entity` 模块从 [`sea-orm`](https://www.sea-ql.org/SeaORM/) CLI 工具生成.
