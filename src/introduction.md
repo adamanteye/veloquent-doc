@@ -50,6 +50,9 @@
 ###  好友请求
 ![friends](img/friend.png)
 
+### 用户注册及信息修改
+![register](img/register.png)
+
 
 
 
